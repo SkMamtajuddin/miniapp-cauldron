@@ -8,7 +8,7 @@
           "versions": [
             {
               "name": "1.0.0",
-              "isReleased": true,
+              "isReleased": false,
               "binary": null,
               "yarnLocks": {
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
@@ -27,8 +27,7 @@
                       "rollout": 100
                     },
                     "miniapps": [
-                      "movielistminiapp@0.0.11",
-                      "https://github.com/electrode-io/moviedetails-miniapp#0.0.9"
+                      "hellomini-miniapp@0.0.1",
                     ],
                     "jsApiImpls": []
                   }
@@ -44,11 +43,10 @@
                   "react-native-electrode-bridge@1.5.9"
                 ],
                 "miniApps": [
-                  "movielistminiapp@0.0.10",
-                  "https://github.com/electrode-io/moviedetails-miniapp#0.0.9"
+                  "hellomini-miniapp@0.0.1",
                 ],
                 "jsApiImpls": [],
-                "ernPlatformVersion": "0.24.0"
+                "ernPlatformVersion": "0.49.0"
               }
             }
           ]
